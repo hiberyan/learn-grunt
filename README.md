@@ -45,4 +45,26 @@ also, we can make the default task of  `grunt`  just run the  `build` task
 
 `grunt.registerTask('default',['build'])`
 
+then we can run either commands to execute that 3 commands automatically
+
+`grunt build`
+
+`grunt`
+
+
+#### there are many grunt modules which can help us ease our daily life
+
+[Watch files and  run task](!https://npmjs.org/package/grunt-contrib-watch)
+
+[Compress Files and Folders](!https://github.com/gruntjs/grunt-contrib-compress)
+
+[Concatenate Files](!https://github.com/gruntjs/grunt-contrib-concat)
+
+[Minify CSS](!https://github.com/gruntjs/grunt-contrib-cssmin)
+
+[Validate files with JSHint](!https://github.com/gruntjs/grunt-contrib-jshint)
+
+[and so many more](!http://gruntjs.com/plugins)
+
+
 
