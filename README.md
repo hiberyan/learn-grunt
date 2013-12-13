@@ -22,4 +22,27 @@ run `grunt copy` to copy files
 #### install *CLEAN* module to the project
 `npm install --save-dev grunt-contrib-clean`
 
+run `grunt clean` to delete files
+
+
+#### install *LESS* to compile less to css (optional)
+`npm install --save-dev grunt-contrib-less`
+
+run  `grunt less` to compile .less to .css
+
+#### build width task
+after the previous 3 steps, we need run the following 3 commands to accomplish our daily jobs, it's better to create a custom **task** to execute these command automatically
+
+`grunt clean`
+
+`grunt less:dist`
+
+`grunt copy`
+
+use `grunt.registerTask('build',[...])` to create to custom build task wich we can run with `grunt build`
+
+also, we can make the default task of  `grunt`  just run the  `build` task
+
+`grunt.registerTask('default',['build'])`
+
 
