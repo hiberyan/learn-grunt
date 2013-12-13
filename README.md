@@ -17,3 +17,9 @@ Grunt is a javascript task runner, it help automate some common tasks.
 -  modify Gruntfile.js to use copy module
 -  any plugin with -contrib- in its name is an offical pulgin maintained by the grunt core team
 
+run `grunt copy` to copy files
+
+#### install *CLEAN* module to the project
+`npm install --save-dev grunt-contrib-clean`
+
+
